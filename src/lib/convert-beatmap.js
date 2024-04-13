@@ -5,7 +5,7 @@ module.exports = function convertBeatmap (src) {
 
   src['version'] = src['versions'][0]['hash'];
 
-  const coverImageCorsProxy = 'https://beatproxy.b-cdn.net/';
+  const coverImageCorsProxy = 'https://eu.cdn.beatsaver.com/';
 
   src['directDownload'] = src['versions'][0]['downloadURL'];
 
